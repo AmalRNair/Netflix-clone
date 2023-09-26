@@ -1,12 +1,13 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'poppins',sans-serif;
+    font-family:    sans-serif;
     box-sizing: border-box;
 }
 body{
     background-color: black;
     color: #fff;
+    
 }
 .header{
     width: 100%;
@@ -117,6 +118,7 @@ nav button{
     padding: 0;
     z-index: 1;
     width: 100%;
+    font-family: po;
 
 }
 .text-col h2{
@@ -168,7 +170,7 @@ nav button{
 }
 .second-page-content{
     flex-direction: row-reverse;
-    max-width: calc( 100% - 4rem );
+    max-width: calc( 80% - 4rem );
     margin: auto;
     display: flex;
     align-items: center;
@@ -181,6 +183,18 @@ nav button{
     padding: 0;
     z-index: 1;
     width: 100%;
+    
+    
+    
+}
+.second-page h2{
+    font-size: 3rem;
+    font-weight: 900; 
+    
+}
+.second-page-p{
+    font-size: 1.5rem;
+    font-weight: 400;
 }
 .second-page-style{
     margin: 1.5rem 0 0;
@@ -209,14 +223,14 @@ nav button{
     overflow: hidden;
     padding: 0.5rem 0.75rem;
     position: absolute;
-    left: 26%;
-    bottom: 8%;
+    left: 31%;
+    bottom: 18%;
     transform: translateX(-50%);
     margin: 0 auto;
     background: rgb(0,0,0);
     display: flex;
     align-items: center;
-    width: 30%;
+    width: 20%;
     min-width: 15rem;
     border: 2px solid rgba(128,128,128,0.7);
     box-shadow: 0 0 2em 0 rgb(0,0,0);
@@ -230,7 +244,7 @@ nav button{
 
 }
 .second-image-box img{
-    height: 4.5rem;
+    height: 5rem;
     border: 0;
     overflow-clip-margin: content-box; */
     overflow: clip;
@@ -243,13 +257,13 @@ nav button{
     margin: 0.3rem 0;
 
 }
+
 .text1{
     font-size: 1rem;
-    color: #fff;
-    font-weight: 500;
+    font-weight: 100;
 }
 .text2{
-    font-size: 0.875;
+    font-size: 0.875rem;
     font-weight: 400;
     color: #0071eb;
 
